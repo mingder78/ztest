@@ -2,8 +2,8 @@
   "name": "ztest",
   "version": "0.0.1",
   "scripts": {
-    "dev": "bun run --watch create-account.ts",
-    "start": "bun run create-account.ts"
+    "dev": "bun run create-account.ts",
+    "dev:uo": "bun run send-userop.ts"
   },
   "type": "module",
   "private": true,
