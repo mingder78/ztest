@@ -38,6 +38,7 @@ const main = async () => {
   // Create the Abstract Account
   const hash = await factory.write.createAccount([ownerAccount.address, salt]);
   console.log('Account creation tx hash:', hash);
+  console.log('done')
 };
 
 main().catch(console.error);
